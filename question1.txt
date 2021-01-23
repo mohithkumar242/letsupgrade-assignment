@@ -1,6 +1,0 @@
-const clothes = ['jacket','t-shirt'];
-clothes.length=0;
-console.log(clothes[0]);
-
-Answer : undefined
-Reason : clothes.length=0 changes the array to null 
