@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Assignment 3</title>
+</head>
+<body>
+	<script > 
+	var library=[
+    {
+        author :'Bill gates',
+        title:'The Road Ahead',
+        readingStatus: true
+    },
+    {
+        author:'Steve jobs',
+        title :'Walter issacson',
+        readingStatus:true
+    },
+    {
+        author:'Suzanne Collins',
+        title:'Mockingjay : The final of The Hunger Games',
+        readingStatus : false
+    }
+];
+
+for(var i=0;i<library.length;i++){
+    if(library[i].readingStatus===true){
+        console.log("Already read %s by %s",library[i].author,library[i].title);
+    }
+    else{
+        console.log("You still need to read %s by %s",library[i].title,library[i].author);
+    }
+}</script>
+</body>
+</html>
