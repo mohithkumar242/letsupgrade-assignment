@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment4Q2</title>
+</head>
+<body>
+	
+	<form >
+		<label>Enter first Number</label>
+		<input type="text"  id="firstnum">
+		<br>
+		<label>Enter  Second number</label>
+		<input type="text"  id="secondnumber"><br>
+		<input type="button" value="Add" onclick="addition()"/>
+		<input type="text"  id="result">
+	</form>
+
+	<script>
+		function addition( ){
+			var x=parseInt(document.getElementById('firstnum').value);
+			var y=parseInt(document.getElementById('secondnumber').value);
+			var z=x+y;
+			document.getElementById('result').value = z
+		}
+	</script>
+
+</body>
+</html>

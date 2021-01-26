@@ -1,0 +1,7 @@
+we can access the elements using DOM in three ways 
+1) document.getElementById("")
+	It is used to access the element by using the unique id property
+2)document.getElementByClassName("")
+	It is used to access the element by using class name of the  element and it returns returns an array-like object of all child elements
+3)document.getElementByTagName("")
+	It is used to access the element by using Tag name of the  element it returns returns an HTMLCollection of elements with the given tag name.
